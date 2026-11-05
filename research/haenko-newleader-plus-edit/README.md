@@ -46,10 +46,19 @@ Use the first two manifest selections from each of GSM8K and MATH500, with docum
 | MATH500 2 | 8192, capped | 4312, finished |
 | MATH500 7 | 8192, capped | 8192, capped |
 
-The parent closed thinking and produced a final answer on 1 of 4 prompts. The candidate did so on 3 of 4 prompts. Total generation time was 45.2 minutes. This is a local completion check. Answers were not scored for correctness.
+The parent closed thinking and produced a final answer on 1 of 4 prompts. The candidate did so on 3 of 4 prompts. Total generation time was 45.2 minutes. This is a local completion check. After submission, we checked the final answers against the reference answers for these same four public items.
 
 Patch artifact SHA-256: `1fb40231464e2af5ee22ac2d101ea2ef70e9db4a1adf64db47aa88b1d47a61a1`.
 
+| Public problem | Reference | Parent final answer | Candidate final answer |
+| --- | --- | --- | --- |
+| GSM8K 3 | 540 | Missing (capped) | 180 (incorrect) |
+| GSM8K 25 | 2 | 2 (correct) | 2 (correct) |
+| MATH500 2 | 14/3 | Missing (capped) | 14/3 (correct) |
+| MATH500 7 | 90 degrees | Missing (capped) | Missing (capped) |
+
+The candidate produced two correct answers and one incorrect answer. The parent produced one correct answer. This four-item check is too small to estimate benchmark accuracy.
+
 ## Official submission
 
-Pending.
+Delta League submission `0235948c-59ca-46c1-abf9-3d64a096a9fb` is awaiting its official score.
