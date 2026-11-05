@@ -34,8 +34,12 @@ The script verifies original and edited SHA-256 values against the pinned upstre
 
 The installed CLI (0.1.1) rejected the verified public bundle with `Public validation benchmark inventory mismatch.` The active bundle groups its data under `text`, `code`, and `bfcl`. The CLI expects benchmark names at the top level. The baseline evaluation exited before generation, so there are no public validation scores.
 
-The rebuild verified all four upstream tensor hashes and the patch passed `delta validate`. Official results are pending.
+The rebuild verified all four upstream tensor hashes and the patch passed `delta validate`.
 
 ## Inference smoke test
 
 On Apple MPS with float32, seed 1000, thinking disabled, and a 32-token cap, both checkpoints returned `52` to “What is 17 + 25? Answer with just the number.” The expected answer is `42`. Both checkpoints loaded and generated a response. This one custom prompt provides no estimate of comparative quality.
+
+## Official submission
+
+Delta League submission `1b54bff6-e635-43c5-89c2-772420588064` was rejected with `duplicate_content`. The server returned no score and assigned no new model version.
