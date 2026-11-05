@@ -61,4 +61,13 @@ The candidate produced two correct answers and one incorrect answer. The parent 
 
 ## Official submission
 
-Delta League submission `0235948c-59ca-46c1-abf9-3d64a096a9fb` is awaiting its official score.
+Delta League submission `0235948c-59ca-46c1-abf9-3d64a096a9fb` was verified as version `9ae2205f-3b0b-49db-a01f-0dfef287e5d0`.
+
+| Official metric | Parent | Candidate |
+| --- | ---: | ---: |
+| Truncation rate | 52.6% | 50.4% |
+| Private test | 28.2 | 26.2 |
+| Public validation | 41.02 | 41.13 |
+| Leaderboard rank at verification | 1 | 2 |
+
+Truncation fell by 2.2 percentage points, meeting the forecast. The private-test score fell by 2.0 points, within the experiment's preselected 4-point noise threshold.
