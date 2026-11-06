@@ -45,4 +45,12 @@ The parent’s final norm is bit-identical to a9340e14, SHA-256 `e1dfccb2ef4edd8
 
 ## Official submission
 
-Pending.
+Submission `b4a923b1-9ea2-4fc9-9cbb-5601278fb379` was verified as `ad8217e2-24ac-490f-afa6-d1bdf6ff1ab2` under `public-ladder500-8k-128-v1`.
+
+| Metric | Parent | Candidate |
+| --- | ---: | ---: |
+| Private test | 34.8 | 33.6 |
+| Public validation | 41.82 | 41.79 |
+| Truncation | 28.4% | 18.4% |
+
+Private-test difference: -1.2 points. This is within the prespecified 3-point noise threshold. The candidate ranked 6 at this leaderboard check.
