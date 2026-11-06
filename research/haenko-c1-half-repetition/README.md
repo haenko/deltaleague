@@ -47,4 +47,12 @@ The patch payload is shared with PR #24 because the two edited tensors start fro
 
 ## Official submission
 
-Pending.
+Submission `cee99a34-59f1-43ad-bbd9-63d26466b73d` was verified as `3a69b3a9-8c37-4a72-a5af-59423299ff28` under `public-ladder500-8k-128-v1`.
+
+| Metric | Parent | Candidate |
+| --- | ---: | ---: |
+| Private test | 34.8 | 32.0 |
+| Public validation | 41.82 | 41.20 |
+| Truncation | 28.4% | 19.4% |
+
+Private-test difference: -2.8 points. This is within the prespecified 3-point noise threshold. The candidate ranked 10 at this leaderboard check.
